@@ -11,6 +11,7 @@ import { MouseTrackerWithRenderPropHOC } from './5_2_renderprops/mouse-cat-rende
 import { MouseTracker } from './5_2_renderprops/MouseTracker';
 import { ControlPropsPage } from './6controlprops/ControlPropsPage';
 import { PropsGettersPage } from './7propsgetters/PropsGettersPage';
+import { StateInitializerPage } from './8stateinitializer/StateInitializerPage';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
 
       {/* ejemplo render props mas guay */}
       {/*<MouseTrackerWithRenderProp />*/}
-      <MouseTrackerWithRenderPropHOC />
+      {/*<MouseTrackerWithRenderPropHOC />*/}
+      <StateInitializerPage />
     </div>
   );
 }
